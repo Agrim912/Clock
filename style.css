@@ -1,13 +1,17 @@
+* {
+    margin-top: 40px;
+}
+
 .container{ 
     /* position: relative; */
     margin: auto;
-    background-image: url('clock.png');
+    background-image: url('clock_image.png');
     background-repeat: no-repeat;
     /* background-size: contain; */
-    background-position: 50%;
-    background-size: 130%;
-    width: 800px;
-    height: 800px;
+    /* background-position: 50%; */
+    background-size: 100%;
+    width: 600px;
+    height: 600px;
     /* border: 2px solid black; */
 }
 
@@ -18,8 +22,8 @@
     background-color:black;
     border: 3px solid black;
     border-radius: 10px;
-    left: 395px;
-    top: 198px;
+    left: 295px;
+    top: 164px;
     /* visibility: hidden; */
     transform-origin: bottom;
     /* transform: rotate(60deg); */
@@ -28,14 +32,14 @@
 }
 .minutes{
     position: relative;
-    height: 29%;
+    height: 32%;
     width: 5px;
     background-color:black;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 10px;
-    left: 395px;
-    top: -43px;
-    opacity: 0.5;
+    left: 295px;
+    top: -73px;
+    opacity: 0.7;
     transform-origin: bottom;
     /* transform: rotate(300deg); */
     
@@ -43,12 +47,12 @@
 .seconds{
     position: relative;
     height: 40%;
-    width: 5px;
+    width: 0.5px;
     background-color:black;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 10px;
-    left: 395px;
-    top: -367px;
+    left: 295px;
+    top: -352px;
     opacity: 0.6;
     transform-origin: bottom;
     /* transform: rotate(90deg); */
